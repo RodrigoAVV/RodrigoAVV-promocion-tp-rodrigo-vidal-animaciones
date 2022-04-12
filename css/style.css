@@ -276,6 +276,30 @@ Inicio estilo para footer
 /*Animaciones gradientes*/
 
 
+.menu{
+	background-image:linear-gradient(to bottom,#b9ffff,#002973);
+}
+
+
+.footer .footer__section .footer__section__redes img{
+	height:4.5rem;
+	width:4.5rem;
+	padding-top:0.7rem;
+	animation-name:efecto;
+	animation-iteration-count:infinite;
+	animation-timing-function:ease;
+	animation-duration:5s;
+	animation-delay:3s;
+}
+
+
+@keyframes efecto{
+	0%{width:4.5rem;}
+	25%{width:4rem;}
+	50%{width:3.5rem;}
+	75%{width:4rem;}
+	100%{width:4.5rem;}
+}
 
 /*
 .footer .footer__section .footer__section__redes{
